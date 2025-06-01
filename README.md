@@ -1,2 +1,4 @@
-# web-335
-Web-335 Intro to NoSQL
+# Web-335 Intro to NoSQL 
+## Contributors
+* Richard Krasso
+* Nicole Nielsen 
