@@ -1,0 +1,39 @@
+{
+  "customers": [
+    {
+      "_id": "c001",
+      "firstName": "Niki",
+      "lastName": "Nielsen",
+      "orders": [
+        {
+          "burger": {
+            "_id": "b101",
+            "burgerName": "California Style Cheeseburger",
+            "price": 8.99
+          }
+        },
+        {
+          "burger": {
+            "_id": "b102",
+            "burgerName": "Spicy Jalapeño Burger",
+            "price": 9.99
+          }
+        }
+      ]
+    },
+    {
+      "_id": "c002",
+      "firstName": "Alexa",
+      "lastName": "Davenport",
+      "orders": [
+        {
+          "burger": {
+            "_id": "b103",
+            "burgerName": "BBQ Bacon Burger",
+            "price": 10.49
+          }
+        }
+      ]
+    }
+  ]
+}
