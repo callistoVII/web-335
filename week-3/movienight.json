@@ -1,0 +1,64 @@
+{
+  "customers": [
+    {
+      "id": 1,
+      "firstName": "Jules",
+      "lastName": "Verne",
+      "movies": [
+        {
+          "id": 1,
+          "movieName": "Hook",
+          "genre": "Family"
+        },
+        {
+          "id": 2,
+          "movieName": "The Fifth Element",
+          "genre": "Sci-Fi"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "firstName": "Nova",
+      "lastName": "McGuinness",
+      "movies": [
+        {
+          "id": 3,
+          "movieName": "Howl's Moving Castle",
+          "genre": "Animated"
+        },
+        {
+          "id": 4,
+          "movieName": "A League of Their Own",
+          "price": "Historical Drama"
+        }
+      ]
+    }
+  ],
+  "ratings": [
+    {
+      "id": 1,
+      "ratingScore": 3,
+      "viewerId": 1,
+      "movieId": 1
+    },
+    {
+      "id": 2,
+      "ratingScore": 5,
+      "viewerId": 2,
+      "movieId": 4
+    }
+  ],
+  "movies": [
+    {
+      "id": 1,
+      "movieName": "Hook",
+      "genre": "Family"
+    },
+    {
+      "id": 2,
+      "movieName": "The Fifth Element",
+      "genre": "Sci-Fi"
+    }
+  ]
+}
