@@ -1,0 +1,44 @@
+{
+  "users": [
+    {
+      "_id": "user13",
+      "firstName": "Niki",
+      "lastName": "Nielsen"
+    }
+  ],
+  "chargers": [
+    {
+      "_id": "chargerA",
+      "chargerType": "USB-C",
+      "voltage": 20
+    },
+    {
+      "_id": "chargerB",
+      "chargerType": "Power Bank",
+      "voltage": 5
+    }
+  ],
+  "devices": [
+    {
+      "_id": "device001",
+      "deviceName": "Apple iPad Pro",
+      "deviceType": "Tablet",
+      "charger_id": "chargerA",
+      "userId": "user13"
+    },
+    {
+      "_id": "device002",
+      "deviceName": "iPhone 16 Pro Max",
+      "deviceType": "Cell Phone",
+      "charger_id": "chargerB",
+      "userId": "user13"
+    },
+    {
+      "_id": "device003",
+      "deviceName": "Nintendo DS",
+      "deviceType": "Handheld Gaming System",
+      "charger_id": "chargerA",
+      "userId": "user13"
+    }
+  ]
+}
