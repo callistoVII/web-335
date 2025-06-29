@@ -28,3 +28,4 @@ profit_output = "Selling price: " + str(selling_price) + " - Cost: " + str(cost)
 # Print results
 print("Cost breakdown: ", cost_output)
 print("Profit Analysis: ", profit_output)
+
