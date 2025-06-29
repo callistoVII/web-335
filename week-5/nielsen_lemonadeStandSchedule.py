@@ -12,7 +12,7 @@ tasks = [
 	"Brainstorm flavor ideas for specials"
 ]
 
-# Print all tasks for the stand
+# Print all tasks for the lemonade stand
 print("Weekly Tasks to Keep The Stand Running Smoothly:")
 for task in tasks:
 	print(f"- {task}")
