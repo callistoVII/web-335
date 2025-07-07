@@ -7,7 +7,7 @@
 from pymongo import MongoClient
 
 # Step 1: Connect to MongoDB Atlas cluster
-client = MongoClient("mongodb+srv://web355Admin:s3cret@bellevueuniversity.a2hoz8c.mongodb.net/web335DB?retryWrites=true&w=majority")
+client = MongoClient("mongodb+srv://web355Admin:<password>@bellevueuniversity.a2hoz8c.mongodb.net/web335DB?retryWrites=true&w=majority")
 db = client['BellevueUniversity']
 
 # Step 2: Display all documents in the user's collection (showing first and last names)
